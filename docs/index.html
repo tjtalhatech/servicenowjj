@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ServiceNow Leads</title>
+<style>
+  :root{
+    --bg:#0E1411;
+    --panel:#151D19;
+    --line:#23302A;
+    --text:#E7EFE9;
+    --muted:#86988E;
+    --accent:#4BD68A;
+    --accent-dim:#1E3B2C;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'IBM Plex Sans',-apple-system,Segoe UI,Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  header{
+    padding:32px 20px 20px;
+    border-bottom:1px solid var(--line);
+    position:sticky;top:0;background:var(--bg);z-index:10;
+  }
+  .eyebrow{
+    font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--accent);font-weight:600;margin-bottom:6px;
+  }
+  h1{
+    font-family:Georgia,'Times New Roman',serif;
+    font-weight:600;font-size:28px;margin:0 0 4px;letter-spacing:-0.01em;
+  }
+  .meta{color:var(--muted);font-size:13px;}
+  .controls{
+    display:flex;gap:10px;margin-top:18px;flex-wrap:wrap;
+  }
+  input[type=search]{
+    flex:1;min-width:160px;background:var(--panel);border:1px solid var(--line);
+    color:var(--text);padding:10px 12px;border-radius:8px;font-size:14px;
+  }
+  select{
+    background:var(--panel);border:1px solid var(--line);color:var(--text);
+    padding:10px 12px;border-radius:8px;font-size:14px;
+  }
+  main{padding:20px;max-width:760px;margin:0 auto;}
+  .count-row{color:var(--muted);font-size:13px;margin-bottom:14px;}
+  .card{
+    background:var(--panel);border:1px solid var(--line);border-radius:10px;
+    padding:16px 18px;margin-bottom:12px;
+    transition:border-color .15s ease;
+  }
+  .card:hover{border-color:var(--accent);}
+  .card a.title{
+    color:var(--text);text-decoration:none;font-size:16px;font-weight:600;
+  }
+  .card a.title:hover{color:var(--accent);}
+  .row{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  .company{color:var(--muted);font-size:14px;margin-top:2px;}
+  .tags{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+  .tag{
+    font-size:11px;padding:3px 9px;border-radius:99px;
+    background:var(--accent-dim);color:var(--accent);border:1px solid var(--accent-dim);
+  }
+  .source{
+    font-size:11px;color:var(--muted);border:1px solid var(--line);
+    padding:3px 9px;border-radius:99px;
+  }
+  .empty{
+    text-align:center;color:var(--muted);padding:60px 20px;font-size:14px;
+  }
+  footer{text-align:center;color:var(--muted);font-size:12px;padding:24px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Auto-updated 2× daily</div>
+  <h1>ServiceNow Leads</h1>
+  <div class="meta" id="updated">Loading…</div>
+  <div class="controls">
+    <input type="search" id="search" placeholder="Search title or company…">
+    <select id="sourceFilter">
+      <option value="">All sources</option>
+    </select>
+  </div>
+</header>
+
+<main>
+  <div class="count-row" id="countRow"></div>
+  <div id="list"></div>
+</main>
+
+<footer>Sources: Adzuna · JSearch — fetched by GitHub Actions</footer>
+
+<script>
+let allJobs = [];
+
+fetch('data/jobs.json?_=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    allJobs = data.jobs || [];
+    document.getElementById('updated').textContent =
+      'Last updated: ' + new Date(data.updated_at).toLocaleString();
+
+    const sources = [...new Set(allJobs.map(j => j.source))];
+    const sel = document.getElementById('sourceFilter');
+    sources.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s; opt.textContent = s;
+      sel.appendChild(opt);
+    });
+
+    render();
+  })
+  .catch(() => {
+    document.getElementById('list').innerHTML =
+      '<div class="empty">No data yet. Run the fetch workflow once to populate jobs.</div>';
+  });
+
+function render(){
+  const q = document.getElementById('search').value.toLowerCase();
+  const src = document.getElementById('sourceFilter').value;
+
+  const filtered = allJobs.filter(j => {
+    const matchesQ = !q || (j.title + ' ' + j.company).toLowerCase().includes(q);
+    const matchesSrc = !src || j.source === src;
+    return matchesQ && matchesSrc;
+  });
+
+  document.getElementById('countRow').textContent = filtered.length + ' leads';
+
+  const list = document.getElementById('list');
+  if (filtered.length === 0){
+    list.innerHTML = '<div class="empty">No matching leads.</div>';
+    return;
+  }
+
+  list.innerHTML = filtered.map(j => `
+    <div class="card">
+      <div class="row">
+        <a class="title" href="${j.link}" target="_blank" rel="noopener">${escapeHtml(j.title)}</a>
+        <span class="source">${j.source}</span>
+      </div>
+      <div class="company">${escapeHtml(j.company)}${j.location ? ' · ' + escapeHtml(j.location) : ''}</div>
+      <div class="tags">
+        ${j.posted ? `<span class="tag">${new Date(j.posted).toLocaleDateString()}</span>` : ''}
+        ${j.salary ? `<span class="tag">$${Number(j.salary).toLocaleString()}+</span>` : ''}
+      </div>
+    </div>
+  `).join('');
+}
+
+function escapeHtml(s){
+  return (s || '').replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+}
+
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('sourceFilter').addEventListener('change', render);
+</script>
+</body>
+</html>
