@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-21T21:04:00.814852Z",
-  "count": 20,
+  "updated_at": "2026-06-22T13:31:27.729148Z",
+  "count": 25,
   "jobs": [
     {
       "id": "da2be7bc1f8f",
@@ -28,6 +28,16 @@
       "company": "Accenture Federal Services",
       "location": "Suitland-Silver Hill, US",
       "link": "https://www.linkedin.com/jobs/view/servicenow-developer-at-accenture-federal-services-4240987711",
+      "source": "JSearch",
+      "posted": "2026-06-19T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "9d205bfd82ff",
+      "title": "SERVICE NOW DEVELOPER",
+      "company": "Zermount, Inc.",
+      "location": "Washington, US",
+      "link": "https://www.linkedin.com/jobs/view/service-now-developer-at-zermount-inc-4431121621",
       "source": "JSearch",
       "posted": "2026-06-19T00:00:00.000Z",
       "salary": null
@@ -78,6 +88,26 @@
       "company": "Guidehouse",
       "location": "McLean, US",
       "link": "https://www.linkedin.com/jobs/view/sr-servicenow-developer-hrsd-at-guidehouse-4430484711",
+      "source": "JSearch",
+      "posted": "2026-06-18T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "848707de1e99",
+      "title": "Remote ServiceNow Developer - ITSM, GRC & Automation Expert",
+      "company": "Phoenix Cyber",
+      "location": "Washington, US",
+      "link": "https://www.whatjobs.com/jobs/servicenow-developer-itsm/remote?id=2821787301",
+      "source": "JSearch",
+      "posted": "2026-06-18T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "12cb1507648e",
+      "title": "Senior Technical ServiceNow Business Analyst - Secret Cleared",
+      "company": "LightFeather",
+      "location": "",
+      "link": "https://www.linkedin.com/jobs/view/senior-technical-servicenow-business-analyst-secret-cleared-at-lightfeather-4430760281",
       "source": "JSearch",
       "posted": "2026-06-18T00:00:00.000Z",
       "salary": null
@@ -153,6 +183,26 @@
       "salary": null
     },
     {
+      "id": "1fc7d346a504",
+      "title": "Senior Consultant, ServiceNow Developer",
+      "company": "Deloitte",
+      "location": "Arlington, US",
+      "link": "https://jobsus.deloitte.com/arlington-va/senior-consultant-servicenow-developer/9F08110D694547CCABD93B87F1462824/job/",
+      "source": "JSearch",
+      "posted": "2026-06-17T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "a05ac059cb18",
+      "title": "Project - Manager, ServiceNow Developer - TS SCI w/ Polygraph Required",
+      "company": "Deloitte",
+      "location": "McLean, US",
+      "link": "https://www.linkedin.com/jobs/view/project-manager-servicenow-developer-ts-sci-w-polygraph-required-at-deloitte-4430147902",
+      "source": "JSearch",
+      "posted": "2026-06-17T00:00:00.000Z",
+      "salary": null
+    },
+    {
       "id": "8b01310920e5",
       "title": "ServiceNow Specialist (Intermediate)",
       "company": "Saliense",
@@ -173,16 +223,6 @@
       "salary": null
     },
     {
-      "id": "1fc7d346a504",
-      "title": "Senior Consultant, ServiceNow Developer",
-      "company": "Deloitte",
-      "location": "Arlington, US",
-      "link": "https://jobsus.deloitte.com/arlington-va/senior-consultant-servicenow-developer/9F08110D694547CCABD93B87F1462824/job/",
-      "source": "JSearch",
-      "posted": "2026-06-16T00:00:00.000Z",
-      "salary": null
-    },
-    {
       "id": "118ab3141983",
       "title": "Technogen, Inc. is hiring: Senior ServiceNow Developer in Washington",
       "company": "Technogen, Inc.",
@@ -191,6 +231,16 @@
       "source": "JSearch",
       "posted": "2026-06-16T00:00:00.000Z",
       "salary": null
+    },
+    {
+      "id": "a6f56f57dce7",
+      "title": "Onsite ServiceNow Developer - DC; Secret Clearance",
+      "company": "IntelliDyne, LLC",
+      "location": "Washington, US",
+      "link": "https://www.learn4good.com/jobs/washington/district-of-columbia/info_technology/5183389893/e/",
+      "source": "JSearch",
+      "posted": "2026-06-16T00:00:00.000Z",
+      "salary": 115000
     },
     {
       "id": "3c51a72850eb",
