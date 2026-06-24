@@ -1,7 +1,97 @@
 {
-  "updated_at": "2026-06-23T21:23:08.840665Z",
-  "count": 25,
+  "updated_at": "2026-06-24T10:44:17.289295Z",
+  "count": 37,
   "jobs": [
+    {
+      "id": "5d750c8cd0ef",
+      "title": "ServiceNow ITSM Process Integrator/Developer",
+      "company": "ICF",
+      "location": "Reston, US",
+      "link": "https://www.linkedin.com/jobs/view/servicenow-itsm-process-integrator-developer-at-icf-4431445743",
+      "source": "JSearch",
+      "posted": "2026-06-23T23:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "0032d1c62e2a",
+      "title": "ServiceNow Developer - Hybrid - Active Top Secret Clearance",
+      "company": "Dunhill Professional Search & Government Solutions",
+      "location": "Washington, US",
+      "link": "https://www.linkedin.com/jobs/view/servicenow-developer-hybrid-active-top-secret-clearance-at-dunhill-professional-search-government-solutions-4432283619",
+      "source": "JSearch",
+      "posted": "2026-06-23T14:00:00.000Z",
+      "salary": 100000
+    },
+    {
+      "id": "00818d4129d3",
+      "title": "ServiceNow Developer & Admin \u2013 ITSM\u200b/ITOM Expert",
+      "company": "Thinktekllc",
+      "location": "Washington, US",
+      "link": "https://www.learn4good.com/jobs/washington/district-of-columbia/info_technology/5204597210/e/",
+      "source": "JSearch",
+      "posted": "2026-06-23T00:00:00.000Z",
+      "salary": 100000
+    },
+    {
+      "id": "8fb5a70e886e",
+      "title": "Senior ServiceNow Developer :: Bethesda, MD (Remote)",
+      "company": "ARK Solutions, Inc.",
+      "location": "",
+      "link": "https://www.monster.com/job-openings/senior-servicenow-developer-bethesda-md-remote-bethesda-md--b751e411-282b-4e18-8f14-e4825f14c5c4",
+      "source": "JSearch",
+      "posted": "2026-06-22T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "59637e447a00",
+      "title": "Senior ServiceNow Developer (with ACTIVE Secret Clearance)",
+      "company": "Prometheus, LLC",
+      "location": "",
+      "link": "https://www.indeed.com/viewjob?jk=90b3c33428fd713c",
+      "source": "JSearch",
+      "posted": "2026-06-22T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "d4e4b5ed1dab",
+      "title": "SERVICE NOW DEVELOPER",
+      "company": "Hiring Our Heroes",
+      "location": "Arlington, US",
+      "link": "https://www.simplyhired.com/job/1Lug8YGdMcYcDiX7VT1IkGHvIn5XJ0wjNt1gG2ZMbl0zr6sdryvP8g",
+      "source": "JSearch",
+      "posted": "2026-06-22T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "7bc86a02ea99",
+      "title": "Remote ServiceNow Developer: ITIL & Integrations Lead",
+      "company": "Arena Technical Resources",
+      "location": "Falls Church, US",
+      "link": "https://jobs.fox8.com/jobs/remote-servicenow-developer-itil-integrations-lead-falls-church-virginia/2832410848-2/",
+      "source": "JSearch",
+      "posted": "2026-06-22T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "91fd1a8539bb",
+      "title": "Servicenow Developer with Security Clearance",
+      "company": "TAD PGS",
+      "location": "Laurel, US",
+      "link": "https://directlyapply.com/job/6a399f114cead8cdad7a0fce",
+      "source": "JSearch",
+      "posted": "2026-06-22T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "63c424fb8a02",
+      "title": "Senior ServiceNow Developer: AI & Automation Specialist",
+      "company": "DirectViz Solutions",
+      "location": "Alexandria, US",
+      "link": "https://www.whatjobs.com/jobs/senior-servicenow-developer-ai/alexandria-virginia?id=2828988680",
+      "source": "JSearch",
+      "posted": "2026-06-22T00:00:00.000Z",
+      "salary": null
+    },
     {
       "id": "da2be7bc1f8f",
       "title": "ServiceNow Development Manager",
@@ -43,6 +133,16 @@
       "salary": null
     },
     {
+      "id": "651c4b3ba9cf",
+      "title": "Senior ServiceNow Developer - Public Trust Clearance",
+      "company": "LightFeather",
+      "location": "",
+      "link": "https://www.linkedin.com/jobs/view/senior-servicenow-developer-public-trust-clearance-at-lightfeather-4430760271",
+      "source": "JSearch",
+      "posted": "2026-06-19T00:00:00.000Z",
+      "salary": null
+    },
+    {
       "id": "f433716981ba",
       "title": "Desktop Support Technician",
       "company": "Pathway Communications",
@@ -68,16 +168,6 @@
       "company": "NextGen Solutions Corporation",
       "location": "Washington, US",
       "link": "https://www.dice.com/job-detail/75e4cd69-7683-419c-b566-1b86b8118147",
-      "source": "JSearch",
-      "posted": "2026-06-18T00:00:00.000Z",
-      "salary": null
-    },
-    {
-      "id": "651c4b3ba9cf",
-      "title": "Senior ServiceNow Developer - Public Trust Clearance",
-      "company": "LightFeather",
-      "location": "",
-      "link": "https://www.linkedin.com/jobs/view/senior-servicenow-developer-public-trust-clearance-at-lightfeather-4430760271",
       "source": "JSearch",
       "posted": "2026-06-18T00:00:00.000Z",
       "salary": null
@@ -119,8 +209,58 @@
       "location": "Washington, US",
       "link": "https://www.jobleads.com/us/job/remote-servicenow-admin-developer-platform-expert--washington--e3f202ad0e7b83e95a2a5d3594a86206c",
       "source": "JSearch",
-      "posted": "2026-06-17T00:00:00.000Z",
+      "posted": "2026-06-18T00:00:00.000Z",
       "salary": 85000
+    },
+    {
+      "id": "fc8cad7eba28",
+      "title": "ServiceNow Developer: ITSM & Workflow Innovator",
+      "company": "TJFACT LLC - Totally Joined for Achieving Collaborative Techniques",
+      "location": "Washington, US",
+      "link": "https://jooble.org/jdp/-4151623280167148250",
+      "source": "JSearch",
+      "posted": "2026-06-18T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "a05ac059cb18",
+      "title": "Project - Manager, ServiceNow Developer - TS SCI w/ Polygraph Required",
+      "company": "Deloitte",
+      "location": "McLean, US",
+      "link": "https://www.linkedin.com/jobs/view/project-manager-servicenow-developer-ts-sci-w-polygraph-required-at-deloitte-4430147902",
+      "source": "JSearch",
+      "posted": "2026-06-18T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "11c1d2bce9c4",
+      "title": "Senior Consultant, ServiceNow Developer",
+      "company": "Deloitte",
+      "location": "Washington, US",
+      "link": "https://jobsus.deloitte.com/washington-dc/senior-consultant-servicenow-developer/9D53056F8B1B4B109D643FB5856E0743/job/",
+      "source": "JSearch",
+      "posted": "2026-06-18T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "73c19aa60fef",
+      "title": "ServiceNow - ServiceNow AI Architect Manager - Tech Con - Open Location",
+      "company": "EY",
+      "location": "Arlington, US",
+      "link": "https://www.linkedin.com/jobs/view/servicenow-servicenow-ai-architect-manager-tech-con-open-location-at-ey-4427874070",
+      "source": "JSearch",
+      "posted": "2026-06-18T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "957b65bd8a03",
+      "title": "Sr. ServiceNow Developer - HRSD",
+      "company": "Guidehouse Digital, LLC",
+      "location": "McLean, US",
+      "link": "https://www.indeed.com/viewjob?jk=1dd4f7c4b79e25f0",
+      "source": "JSearch",
+      "posted": "2026-06-18T00:00:00.000Z",
+      "salary": null
     },
     {
       "id": "300acbcb006f",
@@ -173,31 +313,11 @@
       "salary": 60000
     },
     {
-      "id": "fc8cad7eba28",
-      "title": "ServiceNow Developer: ITSM & Workflow Innovator",
-      "company": "TJFACT LLC - Totally Joined for Achieving Collaborative Techniques",
-      "location": "Washington, US",
-      "link": "https://jooble.org/jdp/-4151623280167148250",
-      "source": "JSearch",
-      "posted": "2026-06-17T00:00:00.000Z",
-      "salary": null
-    },
-    {
       "id": "1fc7d346a504",
       "title": "Senior Consultant, ServiceNow Developer",
       "company": "Deloitte",
       "location": "Arlington, US",
       "link": "https://jobsus.deloitte.com/arlington-va/senior-consultant-servicenow-developer/9F08110D694547CCABD93B87F1462824/job/",
-      "source": "JSearch",
-      "posted": "2026-06-17T00:00:00.000Z",
-      "salary": null
-    },
-    {
-      "id": "a05ac059cb18",
-      "title": "Project - Manager, ServiceNow Developer - TS SCI w/ Polygraph Required",
-      "company": "Deloitte",
-      "location": "McLean, US",
-      "link": "https://www.linkedin.com/jobs/view/project-manager-servicenow-developer-ts-sci-w-polygraph-required-at-deloitte-4430147902",
       "source": "JSearch",
       "posted": "2026-06-17T00:00:00.000Z",
       "salary": null
