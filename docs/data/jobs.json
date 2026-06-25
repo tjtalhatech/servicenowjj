@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T10:37:47.441295Z",
-  "count": 46,
+  "updated_at": "2026-06-25T21:21:19.511659Z",
+  "count": 47,
   "jobs": [
     {
       "id": "d7d5e5e72297",
@@ -450,6 +450,16 @@
       "link": "https://www.whatjobs.com/jobs/senior-servicenow-developer-public/washington-district-of-columbia?id=2812577939",
       "source": "JSearch",
       "posted": "2026-06-15T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "739a0060255b",
+      "title": "Systemarchitekt (m/w/d) Cloud & Datenintegration (Ref.Nr.: 47100)",
+      "company": "Wavestone Germany AG",
+      "location": "Munich",
+      "link": "https://www.arbeitnow.com/jobs/companies/wavestone-germany-ag/systemarchitekt-cloud-datenintegration-refnr-47100-munich-109680",
+      "source": "Arbeitnow",
+      "posted": "1782401430",
       "salary": null
     },
     {
