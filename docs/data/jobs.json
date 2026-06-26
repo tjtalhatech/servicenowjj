@@ -1,15 +1,45 @@
 {
-  "updated_at": "2026-06-25T21:21:19.511659Z",
-  "count": 47,
+  "updated_at": "2026-06-26T10:47:04.093352Z",
+  "count": 58,
   "jobs": [
     {
-      "id": "d7d5e5e72297",
-      "title": "SERVICE NOW DEVELOPER",
-      "company": "Hiring Our Heroes",
-      "location": "Arlington, US",
-      "link": "https://www.linkedin.com/jobs/view/service-now-developer-at-hiring-our-heroes-4432835987",
+      "id": "0032d1c62e2a",
+      "title": "ServiceNow Developer - Hybrid - Active Top Secret Clearance",
+      "company": "Dunhill Professional Search & Government Solutions",
+      "location": "Washington, US",
+      "link": "https://www.linkedin.com/jobs/view/servicenow-developer-hybrid-active-top-secret-clearance-at-dunhill-professional-search-government-solutions-4432283619",
       "source": "JSearch",
-      "posted": "2026-06-24T19:00:00.000Z",
+      "posted": "2026-06-25T21:00:00.000Z",
+      "salary": 100000
+    },
+    {
+      "id": "8fe6eca8d242",
+      "title": "ServiceNow Consultant",
+      "company": "Staffing Spot, Inc.",
+      "location": "McLean, US",
+      "link": "https://www.linkedin.com/jobs/view/servicenow-consultant-at-staffing-spot-inc-4432669593",
+      "source": "JSearch",
+      "posted": "2026-06-25T16:00:00.000Z",
+      "salary": 64
+    },
+    {
+      "id": "2d349bc00159",
+      "title": "ServiceNow Architect \u2013 SPM",
+      "company": "SPECTRAFORCE",
+      "location": "",
+      "link": "https://www.linkedin.com/jobs/view/servicenow-architect-%E2%80%93-spm-at-spectraforce-4433360094",
+      "source": "JSearch",
+      "posted": "2026-06-25T16:00:00.000Z",
+      "salary": 85
+    },
+    {
+      "id": "f87f589874b5",
+      "title": "ServiceNow Developer & Admin - ITSM/ITOM Expert",
+      "company": "Thinktekllc",
+      "location": "Washington, US",
+      "link": "https://www.whatjobs.com/jobs/servicenow-developer-admin/washington?id=2836408588",
+      "source": "JSearch",
+      "posted": "2026-06-25T00:00:00.000Z",
       "salary": null
     },
     {
@@ -30,6 +60,16 @@
       "link": "https://www.linkedin.com/jobs/view/servicenow-developer-at-accenture-federal-services-4240987711",
       "source": "JSearch",
       "posted": "2026-06-24T15:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "d7d5e5e72297",
+      "title": "SERVICE NOW DEVELOPER",
+      "company": "Hiring Our Heroes",
+      "location": "Arlington, US",
+      "link": "https://www.linkedin.com/jobs/view/service-now-developer-at-hiring-our-heroes-4432835987",
+      "source": "JSearch",
+      "posted": "2026-06-24T00:00:00.000Z",
       "salary": null
     },
     {
@@ -63,14 +103,34 @@
       "salary": null
     },
     {
-      "id": "0032d1c62e2a",
-      "title": "ServiceNow Developer - Hybrid - Active Top Secret Clearance",
-      "company": "Dunhill Professional Search & Government Solutions",
-      "location": "Washington, US",
-      "link": "https://www.linkedin.com/jobs/view/servicenow-developer-hybrid-active-top-secret-clearance-at-dunhill-professional-search-government-solutions-4432283619",
+      "id": "c76db7d17d2d",
+      "title": "Senior ServiceNow Developer :: Bethesda, MD (Remote)",
+      "company": "ARK Solutions, Inc.",
+      "location": "",
+      "link": "https://www.monster.com/job-openings/senior-servicenow-developer-bethesda-md-remote-bethesda-md--eeac48c2-fece-4d50-adcd-5c436e36589a",
       "source": "JSearch",
-      "posted": "2026-06-23T00:00:00.000Z",
-      "salary": 100000
+      "posted": "2026-06-24T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "f845d7da206f",
+      "title": "Senior ServiceNow Developer - Public Trust Clearance",
+      "company": "LightFeather",
+      "location": "",
+      "link": "https://www.linkedin.com/jobs/view/senior-servicenow-developer-public-trust-clearance-at-lightfeather-4432111071",
+      "source": "JSearch",
+      "posted": "2026-06-24T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "23700e7acc99",
+      "title": "ServiceNow Developer - CSM & Integrations Specialist",
+      "company": "iTech AG",
+      "location": "Arlington, US",
+      "link": "https://www.learn4good.com/jobs/arlington/virginia/info_technology/5209560415/e/",
+      "source": "JSearch",
+      "posted": "2026-06-24T00:00:00.000Z",
+      "salary": 90000
     },
     {
       "id": "00818d4129d3",
@@ -81,6 +141,36 @@
       "source": "JSearch",
       "posted": "2026-06-23T00:00:00.000Z",
       "salary": 100000
+    },
+    {
+      "id": "3f247b9ad377",
+      "title": "SERVICE NOW DEVELOPER",
+      "company": "Hiring Our Heroes",
+      "location": "Arlington, US",
+      "link": "https://www.ziprecruiter.com/c/Hiring-Our-Heroes/Job/SERVICE-NOW-DEVELOPER/-in-Arlington,VA?jid=39b45b7c00cf70f2",
+      "source": "JSearch",
+      "posted": "2026-06-23T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "258ebb2c63ac",
+      "title": "ServiceNow Architect",
+      "company": "Greenberg & Larraby, Inc.",
+      "location": "Bethesda, US",
+      "link": "https://www.linkedin.com/jobs/view/servicenow-architect-at-greenberg-larraby-inc-4432236231",
+      "source": "JSearch",
+      "posted": "2026-06-23T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "6cadd29a38d6",
+      "title": "ServiceNow Developer ITSM & HR Service Delivery",
+      "company": "Acuity",
+      "location": "Washington, US",
+      "link": "https://www.whatjobs.com/jobs/servicenow-developer-itsm-hr/washington-district-of-columbia?id=2831555128",
+      "source": "JSearch",
+      "posted": "2026-06-23T00:00:00.000Z",
+      "salary": null
     },
     {
       "id": "8fb5a70e886e",
@@ -160,6 +250,26 @@
       "link": "https://www.linkedin.com/jobs/view/servicenow-senior-developer-remote-collaboration-at-ondaro-4354891019",
       "source": "JSearch",
       "posted": "2026-06-22T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "3ecff4b32f0b",
+      "title": "Senior ServiceNow Lead \u2014 Remote, Dev Path",
+      "company": "Lumen",
+      "location": "Washington, US",
+      "link": "https://www.jobleads.com/us/job/senior-servicenow-lead-remote-dev-path--washington--e5bb061ef0e2de16892b5b99f187b7e30",
+      "source": "JSearch",
+      "posted": "2026-06-22T00:00:00.000Z",
+      "salary": 145000
+    },
+    {
+      "id": "8a35261f0fa9",
+      "title": "Remote ServiceNow IRM Developer - ITSM & Integrations",
+      "company": "FRG Technology Consulting",
+      "location": "Arlington, US",
+      "link": "https://jooble.org/jdp/-3882169313804489088",
+      "source": "JSearch",
+      "posted": "2026-06-21T00:00:00.000Z",
       "salary": null
     },
     {
