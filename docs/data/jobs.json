@@ -1,7 +1,17 @@
 {
-  "updated_at": "2026-06-26T21:11:59.190686Z",
-  "count": 58,
+  "updated_at": "2026-06-27T10:00:26.305134Z",
+  "count": 64,
   "jobs": [
+    {
+      "id": "8c40b01d3d36",
+      "title": "File Clerk",
+      "company": "Recruit Lytics Hiring",
+      "location": "Hong Kong, Hong Kong, Hong Kong SAR",
+      "link": "https://remoteOK.com/remote-jobs/remote-file-clerk-recruit-lytics-hiring-1134157",
+      "source": "RemoteOK",
+      "posted": "2026-06-26T07:47:42+00:00",
+      "salary": 0
+    },
     {
       "id": "0032d1c62e2a",
       "title": "ServiceNow Developer - Hybrid - Active Top Secret Clearance",
@@ -9,18 +19,18 @@
       "location": "Washington, US",
       "link": "https://www.linkedin.com/jobs/view/servicenow-developer-hybrid-active-top-secret-clearance-at-dunhill-professional-search-government-solutions-4432283619",
       "source": "JSearch",
-      "posted": "2026-06-25T21:00:00.000Z",
+      "posted": "2026-06-26T00:00:00.000Z",
       "salary": 100000
     },
     {
-      "id": "8fe6eca8d242",
-      "title": "ServiceNow Consultant",
-      "company": "Staffing Spot, Inc.",
-      "location": "McLean, US",
-      "link": "https://www.linkedin.com/jobs/view/servicenow-consultant-at-staffing-spot-inc-4432669593",
+      "id": "d9b740ee37ca",
+      "title": "Senior ServiceNow Developer & Team Lead - Onsite",
+      "company": "Govserviceshub",
+      "location": "College Park, US",
+      "link": "https://www.learn4good.com/jobs/college-park/maryland/info_technology/5216877654/e/",
       "source": "JSearch",
-      "posted": "2026-06-25T16:00:00.000Z",
-      "salary": 64
+      "posted": "2026-06-26T00:00:00.000Z",
+      "salary": null
     },
     {
       "id": "2d349bc00159",
@@ -33,11 +43,31 @@
       "salary": 85
     },
     {
+      "id": "8fe6eca8d242",
+      "title": "ServiceNow Consultant",
+      "company": "Staffing Spot, Inc.",
+      "location": "McLean, US",
+      "link": "https://www.linkedin.com/jobs/view/servicenow-consultant-at-staffing-spot-inc-4432669593",
+      "source": "JSearch",
+      "posted": "2026-06-25T00:00:00.000Z",
+      "salary": 64
+    },
+    {
       "id": "f87f589874b5",
       "title": "ServiceNow Developer & Admin - ITSM/ITOM Expert",
       "company": "Thinktekllc",
       "location": "Washington, US",
       "link": "https://www.whatjobs.com/jobs/servicenow-developer-admin/washington?id=2836408588",
+      "source": "JSearch",
+      "posted": "2026-06-25T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "19795baa7f54",
+      "title": "ServiceNow Functional Lead",
+      "company": "Deloitte",
+      "location": "McLean, US",
+      "link": "https://www.linkedin.com/jobs/view/servicenow-functional-lead-at-deloitte-4433376515",
       "source": "JSearch",
       "posted": "2026-06-25T00:00:00.000Z",
       "salary": null
@@ -49,7 +79,7 @@
       "location": "Rockville, US",
       "link": "https://www.linkedin.com/jobs/view/servicenow-enginner-at-unisys-4429870704",
       "source": "JSearch",
-      "posted": "2026-06-24T16:00:00.000Z",
+      "posted": "2026-06-24T00:00:00.000Z",
       "salary": null
     },
     {
@@ -59,7 +89,7 @@
       "location": "Suitland-Silver Hill, US",
       "link": "https://www.linkedin.com/jobs/view/servicenow-developer-at-accenture-federal-services-4240987711",
       "source": "JSearch",
-      "posted": "2026-06-24T15:00:00.000Z",
+      "posted": "2026-06-24T00:00:00.000Z",
       "salary": null
     },
     {
@@ -131,6 +161,16 @@
       "source": "JSearch",
       "posted": "2026-06-24T00:00:00.000Z",
       "salary": 90000
+    },
+    {
+      "id": "8be18c5ed238",
+      "title": "ServiceNow Developer - HRSD/ITSM Integrations",
+      "company": "DPR Construction",
+      "location": "Washington, US",
+      "link": "https://jooble.org/jdp/4541622647405992980",
+      "source": "JSearch",
+      "posted": "2026-06-24T00:00:00.000Z",
+      "salary": null
     },
     {
       "id": "00818d4129d3",
@@ -261,6 +301,26 @@
       "source": "JSearch",
       "posted": "2026-06-22T00:00:00.000Z",
       "salary": 145000
+    },
+    {
+      "id": "3d782fa574b7",
+      "title": "Senior ServiceNow Developer (with ACTIVE Secret Clearance)",
+      "company": "Prometheus, LLC",
+      "location": "Washington, US",
+      "link": "https://www.simplyhired.com/job/Zm8Wm07iLuf9t4bIesx4VtxDxTcGkOxlK7C4hDzF--DJ4YSmVhfyqA",
+      "source": "JSearch",
+      "posted": "2026-06-22T00:00:00.000Z",
+      "salary": null
+    },
+    {
+      "id": "f71e0e66eac0",
+      "title": "QATESTER (SERVICENOW)",
+      "company": "BTree Solutions Inc",
+      "location": "McLean, US",
+      "link": "https://www.talent.com/view?id=624927509522220627",
+      "source": "JSearch",
+      "posted": "2026-06-22T00:00:00.000Z",
+      "salary": null
     },
     {
       "id": "8a35261f0fa9",
